@@ -1,0 +1,28 @@
+﻿Build started 18.05.2020 20:43:02.
+     1>Project "C:\Users\Danil\documents\visual studio 2013\Projects\Vector\Vector\Vector.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\danil\documents\visual studio 2013\projects\vector\vector\vector.h(50): warning C4101: 'i' : unreferenced local variable
+                 c:\users\danil\documents\visual studio 2013\projects\vector\vector\vector.h(38) : while compiling class template member function 'MyVector<int>::MyVector(int,Vector *)'
+                 with
+                 [
+                     Vector=int
+                 ]
+                 c:\users\danil\documents\visual studio 2013\projects\vector\vector\main.cpp(20) : see reference to function template instantiation 'MyVector<int>::MyVector(int,Vector *)' being compiled
+                 with
+                 [
+                     Vector=int
+                 ]
+                 c:\users\danil\documents\visual studio 2013\projects\vector\vector\main.cpp(13) : see reference to class template instantiation 'MyVector<int>' being compiled
+     1>c:\users\danil\documents\visual studio 2013\projects\vector\vector\vector.h(140): warning C4715: 'MyVector<int>::operator+' : not all control paths return a value
+     1>c:\users\danil\documents\visual studio 2013\projects\vector\vector\vector.h(164): warning C4715: 'MyVector<int>::operator*' : not all control paths return a value
+     1>c:\users\danil\documents\visual studio 2013\projects\vector\vector\matrix.h(169): warning C4715: 'Matrix<int>::operator+' : not all control paths return a value
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Danil\documents\visual studio 2013\Projects\Vector\Debug\Vector.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Danil\documents\visual studio 2013\Projects\Vector\Debug\Vector.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Danil\documents\visual studio 2013\Projects\Vector\Debug\Vector.lib" /MACHINE:X86 Debug\main.obj
+         Vector.vcxproj -> C:\Users\Danil\documents\visual studio 2013\Projects\Vector\Debug\Vector.exe
+     1>Done Building Project "C:\Users\Danil\documents\visual studio 2013\Projects\Vector\Vector\Vector.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63
